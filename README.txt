@@ -14,8 +14,11 @@ Request Method : POST
 Url : http://localhost:8080/api/auth/signup
 
 Request Body :
+{
+    "username": "Pavani",
+    "password": "password"
+}
 
+Response: 
 
-POST /api/auth/login: log in to an existing user account and receive an access token.
-Note Endpoints
-localhost:8080/api/auth/signup
+User registered successfully
